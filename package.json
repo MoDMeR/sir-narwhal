@@ -1,0 +1,63 @@
+{
+  "name": "sir-narwhal",
+  "version": "1.0.0",
+  "description": "Region role assigner bot for League of Teemos server on Discord",
+  "homepage": "https://sir-narwhal.herokuapp.com",
+  "author": {
+    "name": "synicalsyntax",
+    "email": "cynthialin1004@gmail.com",
+    "url": "http://clin-dump.co.nf"
+  },
+  "files": [
+    "lib",
+    "app"
+  ],
+  "main": "lib/index.js",
+  "keywords": [
+    "sir narwhal",
+    "sir-narwhal",
+    "roles",
+    "role",
+    "bot",
+    "bots",
+    "league of teemos",
+    "discord",
+    "discordapp"
+  ],
+  "scripts": {
+    "bot": "node ./lib/index.js",
+    "start": "node ./lib/index.js",
+    "prepublish": "gulp prepublish",
+    "test": "gulp"
+  },
+  "dependencies": {
+    "discord.js": "^11.0.0",
+    "ejs": "~2.5.5",
+    "express": "~4.14.0"
+  },
+  "devDependencies": {
+    "eslint": "^3.1.1",
+    "eslint-config-xo-space": "^0.15.0",
+    "gulp": "^3.9.0",
+    "gulp-eslint": "^3.0.1",
+    "gulp-exclude-gitignore": "^1.0.0",
+    "gulp-line-ending-corrector": "^1.0.1",
+    "gulp-istanbul": "^1.0.0",
+    "gulp-mocha": "^3.0.1",
+    "gulp-plumber": "^1.0.0",
+    "gulp-nsp": "^2.1.0",
+    "gulp-coveralls": "^0.1.0"
+  },
+  "eslintConfig": {
+    "complexity": ["error", 10],
+    "extends": "xo-space",
+    "env": {
+      "mocha": true
+    }
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/synicalsyntax/sir-narwhal.git"
+  },
+  "license": "MIT"
+}

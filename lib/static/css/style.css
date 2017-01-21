@@ -1,0 +1,85 @@
+@font-face {
+	font-family: 'Whitney';
+	src: url('../fonts/Whitney-Light.eot');
+	src: url('../fonts/Whitney-Light.eot?#iefix') format('embedded-opentype'),
+		url('../fonts/Whitney-Light.woff') format('woff'),
+		url('../fonts/Whitney-Light.ttf') format('truetype');
+	font-weight: 300;
+	font-style: normal;
+}
+
+@font-face {
+	font-family: 'Whitney';
+	src: url('../fonts/Whitney-Medium.eot');
+	src: url('../fonts/Whitney-Medium.eot?#iefix') format('embedded-opentype'),
+		url('../fonts/Whitney-Medium.woff') format('woff'),
+		url('../fonts/Whitney-Medium.ttf') format('truetype');
+	font-weight: 500;
+	font-style: normal;
+}
+
+@font-face {
+	font-family: 'Whitney';
+	src: url('../fonts/Whitney-Semibold.eot');
+	src: url('../fonts/Whitney-Semibold.eot?#iefix') format('embedded-opentype'),
+		url('../fonts/Whitney-Semibold.woff') format('woff'),
+		url('../fonts/Whitney-Semibold.ttf') format('truetype');
+	font-weight: 600;
+	font-style: normal;
+}
+
+@font-face {
+	font-family: 'Whitney Book';
+	src: url('../fonts/Whitney-Book.eot');
+	src: url('../fonts/Whitney-Book.eot?#iefix') format('embedded-opentype'),
+		url('../fonts/Whitney-Book.woff') format('woff'),
+		url('../fonts/Whitney-Book.ttf') format('truetype');
+	font-weight: normal;
+	font-style: normal;
+}
+
+@font-face {
+	font-family: 'Whitney';
+	src: url('../fonts/Whitney-Bold.eot');
+	src: url('../fonts/Whitney-Bold.eot?#iefix') format('embedded-opentype'),
+		url('../fonts/Whitney-Bold.woff') format('woff'),
+		url('../fonts/Whitney-Bold.ttf') format('truetype');
+	font-weight: bold;
+	font-style: normal;
+}
+
+body {
+    font-family: 'Whitney', sans-serif;
+    background-image: url('../images/sirnarwhal.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+h1 {
+    font-weight: 700;
+}
+
+h5 {
+    font-weight: 500;
+}
+
+a:link, a:visited, a:hover, a:active {
+    color: #7289DA;
+}
+
+#cont {
+    height: 400px;
+    margin: auto;
+    position: absolute;
+    top: 0;
+    left: 500;
+    bottom: 0;
+    right: 0;
+}
+
+.btn, .btn:link, .btn:visited, .btn:hover, .btn:active {
+    font-weight: 600;
+    color: #fff;
+    background-color: #7289DA;
+}

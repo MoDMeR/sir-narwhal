@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1.0">
+    <meta name="description" content="Region role assigner bot for League of Teemos server on Discord">
+    <meta name="author" content="synicalsyntax">
+    <meta name="keywords" content="sir narwhal, sir-narwhal, roles, role, bot, bots, league of teemos, discord, discordapp">
+    <meta property="og:description" content="Region role assigner bot for League of Teemos server on Discord">
+    <meta property="og:title" content="Sir Narwhal">
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="https://sir-narwhal.herokuapp.com">
+    <meta property="og:site_name" content="Sir Narwhal">
+    <meta property="og:image" content="https://sir-narwhal.herokuapp.com/images/favicon.png">
+    <meta property="og:image:width" content="512">
+    <meta property="og:image:height" content="512">
+    <meta name="google-site-verification" content="2QE3A76zt4y3jat9XV96CiFXkb6ZUm5RlqAZQWin5j0" />
+    <title>Sir Narwhal</title>
+
+    <link rel="apple-touch-icon" sizes="57x57" href="../images/apple-touch-icon-57x57.png">
+    <link rel="apple-touch-icon" sizes="60x60" href="../images/apple-touch-icon-60x60.png">
+    <link rel="apple-touch-icon" sizes="72x72" href="../images/apple-touch-icon-72x72.png">
+    <link rel="apple-touch-icon" sizes="76x76" href="../images/apple-touch-icon-76x76.png">
+    <link rel="apple-touch-icon" sizes="114x114" href="../images/apple-touch-icon-114x114.png">
+    <link rel="apple-touch-icon" sizes="120x120" href="../images/apple-touch-icon-120x120.png">
+    <link rel="apple-touch-icon" sizes="144x144" href="../images/apple-touch-icon-144x144.png">
+    <link rel="apple-touch-icon" sizes="152x152" href="../images/apple-touch-icon-152x152.png">
+    <link rel="apple-touch-icon" sizes="180x180" href="../images/apple-touch-icon-180x180.png">
+    <link rel="icon" type="image/png" href="../images/favicon-32x32.png" sizes="32x32">
+    <link rel="icon" type="image/png" href="../images/android-chrome-192x192.png" sizes="192x192">
+    <link rel="icon" type="image/png" href="../images/favicon-16x16.png" sizes="16x16">
+    <link rel="manifest" href="../images/manifest.json">
+    <link rel="shortcut icon" href="../images/favicon.ico">
+    <meta name="msapplication-TileColor" content="#603cba">
+    <meta name="msapplication-TileImage" content="../images/mstile-144x144.png">
+    <meta name="msapplication-config" content="../images/browserconfig.xml">
+    <meta name="theme-color" content="#ffffff">
+
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/MaterialDesign-Webfont/1.7.22/css/materialdesignicons.min.css" rel="stylesheet">
+    <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.97.7/css/materialize.min.css">
+    <link rel="stylesheet" type="text/css" href="css/style.css">
+
+    <script type="text/javascript" src="https://code.jquery.com/jquery-2.2.4.min.js"></script>
+    <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.97.7/js/materialize.min.js"></script>
+</head>
+
+<body>
+    <div class="container" id="intro">
+        <div class="row center">
+            <div class="col l6 offset-l6 m12 s12" id="cont">
+                <h1 class="title white-text">SIR NARWHAL</h1>
+                <h5 class="title white-text">Region role assigner bot for <br> <a href="https://discord.gg/YY8Senp" target="_blank">League of Teemos</a> server</h5>
+                <img class="responive-img" src="images/discord.png" id="logo">
+                <br>
+                <h6><a class="btn btn-large" href="https://github.com/synicalsyntax/sir-narwhal" target="_blank"><i class="mdi mdi-github-circle" style="vertical-align:middle"></i> View on GitHub</a></h6>
+            </div>
+        </div>
+    </div>
+    <script>
+        $(function() {
+            $('#intro').css('opacity', '0');
+            $('#logo').width($('#cont').width() / 2);
+            $('#cont').height($('#cont').height());
+        });
+        
+        $(window).on('load', function() {
+            $('#intro').delay(200).animate({
+                'opacity': 1
+            });
+        });
+    </script>
+  <script>
+      (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+      (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+      m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+      })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
+
+      ga('create', 'UA-81035860-1', 'auto');
+      ga('send', 'pageview');
+    </script>
+</body>
+
+</html>
