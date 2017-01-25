@@ -31,7 +31,10 @@ messages sent to the **#region-grouping** channel for orderliness.
 
 ---
 
-The bot's source code is located in `lib/index.js`.
+The bot's source code, written with the
+[Discord.js](https://github.com/hydrabolt/discord.js) Node.js module, is
+located in `lib/index.js`. The website is also served from `lib/index.js`
+using [Express](https://github.com/expressjs/express).
 
 The website's source code is located in `views/index.ejs`; however, its
 static files (CSS stylesheets, images, fonts) are located in the

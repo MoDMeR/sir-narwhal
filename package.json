@@ -1,6 +1,6 @@
 {
   "name": "sir-narwhal",
-  "version": "1.0.1",
+  "version": "1.1.0",
   "description": "Region role assigner bot for League of Teemos server on Discord",
   "homepage": "https://sir-narwhal.herokuapp.com",
   "author": {
@@ -49,7 +49,6 @@
     "gulp-coveralls": "^0.1.0"
   },
   "eslintConfig": {
-    "complexity": ["error", 10],
     "extends": "xo-space",
     "env": {
       "mocha": true
